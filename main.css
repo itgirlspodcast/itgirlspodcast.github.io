@@ -1,0 +1,130 @@
+h1 {
+	font-family: 'Poiret One', cursive;
+/*	font-family: 'Lato', sans-serif;*/
+	text-align: center;
+	font-weight: 100;
+}
+
+h1.nav {
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: color 1s ease;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;	
+	font-weight: lighter;
+}
+
+h2.shorter {
+	line-height: 0.7em;
+}
+
+h2.taller {
+	line-height: 3em;
+}
+
+h2.intro {
+	font-size: 150%;
+	line-height: 0.3em;
+}
+
+h1.nav:hover {
+	color: #96439d;
+}
+
+a {
+	color: #96439d;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 1.5em;
+	color: white;
+}
+
+h3.dark {
+	color: black;
+}
+
+b {
+	font-weight: normal;
+}
+
+
+header {
+}
+
+body {
+padding-left: 300px;
+}
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.picture {
+	background-image: url('polaroid.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-image: url('itgirls.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+
+}
+
+.sidebar {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	background-color: #8bd1d3;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 30px;
+	width: 240px;
+}
+
+.intro {
+	padding-top: 20px;
+}
+
+.mainpage {
+	float: left;
+	width: 1000px;
+	display: inline;
+}
+
+.listenpage {
+	display: inline;
+	margin-left: 300px;
+}
+
+.sponsorspage {
+	display: inline;
+	margin-left: 300px;
+	vertical-align: center;
+}
+
+.stitch {
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
