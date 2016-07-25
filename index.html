@@ -1,1 +1,96 @@
-Hello world
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<link rel='shortcut icon' href='itgirls-favicon.png' type='image/png'>
+</head>
+
+<header>
+	<div class = "sidebar"> 
+		<div class="logo"> </div>
+
+		<div class="intro">
+			<h3> somewhat amusing <b>comedy</b>. almost wild <b>adventures</b>. interviews with <b> pretty cool people </b>. We are the <b>It Girls</b>.</h3>
+		</div>
+
+		<div class="navbar">
+			<div class="about"> <h1 class="nav"> about </h1> </div>
+			<div class="listen"> <h1 class="nav"> listen </h1> </div>
+			<div class="sponsors"> <h1 class="nav"> sponsors </h1> </div>
+		</div>
+	</div>
+</header>
+
+
+
+<body>
+
+	<div class="mainpage">
+		<div class="picture"> </div>
+		<div class="text">
+			<h2 class="intro"> <i>hello we are priya garg & connie liu, the hosts of it girls. </i></h2> 
+
+			<h2 class="taller"> <b> Advance Praise </b> </h2>
+			<h2 class="shorter"> "I'm impressed. I thought it would be a lot worse to be honest." - Mike Wu </h2>
+			<h2 class="shorter"> "I have better things to do than watch you and Connie...be idiots" - Anika Gupta </h2>
+			<h2 class="shorter"> "The next <i>Hamilton</i>" - Lin-Manuel Miranda </h2> 
+
+		</div>
+
+	</div>
+
+	<div class="listenpage">
+		<h3 class="dark"> <b>Episode 1 - Pilot:</b> Tune in to hear Connie and Priya navigate post-college life, recap recent adventures, discuss latest interests, and interview people doing cool things in the real world. </h3>
+		<div class="stitch">
+
+			<iframe scrolling=”no” frameborder=”0” style=”width:300px;height:180px;border:0;overflow:hidden;” width=”300” height=”180” src="https://app.stitcher.com/widget/f/94578"></iframe>
+		</div>
+
+		<h3 class="dark"> Also find us on <a href="https://itunes.apple.com/us/podcast/it-girls-podcast/id1133345346">itunes</a> and <a href="https://www.stitcher.com/podcast/priya-garg/it-girls?refid=stpr">stitcher</a>! </h3>
+
+	</div>
+
+	<div class="sponsorspage">
+		<h1> <b> No sponsors yet but we'd love to have you as one! <a href="mailto:conniekliu95@gmail.com?Subject=Hello!"> Contact us! </a> </b> </h1>
+	</div>
+		
+	
+</body>
+
+</html>
+
+<script type = 'text/javascript'>
+	$(document).ready(function() {
+		$('.listenpage').hide();
+		$('.sponsorspage').hide();
+	});
+
+	$('.about').click(function()  {
+		$('.mainpage').fadeIn(1000);
+		$('.listenpage').hide();
+		$('.sponsorspage').hide();
+	});
+
+	$('.listen').click(function()  {
+		$('.listenpage').fadeIn(1000);
+		$('.mainpage').hide();
+		$('.sponsorspage').hide();
+	});
+
+	$('.sponsors').click(function()  {
+		$('.sponsorspage').fadeIn(1000);
+		$('.listenpage').hide();
+		$('.mainpage').hide();
+	});
+
+</script>
+>>>>>>> cf5e9430474f5d1fa092a3959268b0a4bfda0eaf
